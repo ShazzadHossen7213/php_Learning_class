@@ -8,6 +8,22 @@
 </head>
 
 <body>
+<?php echo 'HELLO PHP'; ?> 
+<?php 
+$food = "pizza";
+// $Food = "Pizza";
+echo ' I love to eat' .$food . '<br>';
+/*Shazzad Hossen*/
+ $age = 10;
+// $_age7 =10;
+// $AGE = 10; 
+echo 'My age is ' . $age . ' I read in Clas Two' . '<br>';
+?>
+<?php 
+$x = 10;
+$y = 20;
 
+echo $x + $y;
+?>
 </body>
 </html>
