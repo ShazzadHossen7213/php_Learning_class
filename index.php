@@ -23,7 +23,16 @@ echo 'My age is ' . $age . ' I read in Clas Two' . '<br>';
 $x = 10;
 $y = 20;
 
-echo $x + $y;
+echo $x + $y . '<br>';
+echo ($x + $y) . '<br>';
+print $x + $y . '<br>';
+print ($x + $y) . '<br>';
+?>
+<?php
+
+?>
+<?php
+
 ?>
 </body>
 </html>
