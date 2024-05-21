@@ -31,8 +31,17 @@ print ($x + $y) . '<br>';
 print $food;
 $foods =print('Drinks');
 
-echo $Foods;
-
+echo $foods;
+$name ='Shazzad'; // sring operation
+$name ='Hossen';
+$age  = 30;
+$age1 = 30.2;
+$religion =  true;
+$people   = array('Apple', 'Banana', 'Plum');
+$null = null;
+var_dump($name);
+var_dump($people);
+var_dump($null);
 ?>
 <?php
 
