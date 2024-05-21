@@ -27,6 +27,12 @@ echo $x + $y . '<br>';
 echo ($x + $y) . '<br>';
 print $x + $y . '<br>';
 print ($x + $y) . '<br>';
+
+print $food;
+$foods =print('Drinks');
+
+echo $Foods;
+
 ?>
 <?php
 
