@@ -41,7 +41,22 @@ $people   = array('Apple', 'Banana', 'Plum');
 $null = null;
 var_dump($name);
 var_dump($people);
-var_dump($null);
+var_dump($null) . '<br>';
+
+class phone{
+    var $model;
+    function phoneModel ($number) {
+        global $model;
+        $model = $number;
+        echo "This is $model <br>";
+    }
+}
+
+$apple = new phone;
+$apple-> phonemodel('iphpne 16');
+$samsung = new phone;
+$samsung-> phonemodel('s23 ultra');
+
 ?>
 <?php
 
