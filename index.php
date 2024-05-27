@@ -41,8 +41,7 @@ $people   = array('Apple', 'Banana', 'Plum');
 $null = null;
 var_dump($name);
 var_dump($people);
-var_dump($null) . '<br>';
-
+var_dump($null);
 class phone{
     var $model;
     function phoneModel ($number) {
@@ -56,10 +55,8 @@ $apple = new phone;
 $apple-> phonemodel('iphpne 16');
 $samsung = new phone;
 $samsung-> phonemodel('s23 ultra');
-
-?>
-<?php
-
+$lg = new phone;
+$lg->  phonemodel('upcomming');
 ?>
 <?php
 
